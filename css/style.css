@@ -1,0 +1,50 @@
+body{
+  background-image: url(../image/fond.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: cyber;
+  src: url(../font/cyberfunk.ttf);
+}
+
+#story{
+  width: 600px;
+  height: 535px;
+  background-color: rgba(0,0,0,0.7);
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-family: cursive;
+  text-align: justify;
+  text-align-last: center;
+}
+
+#storyTexte{
+  height: 470px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-left: 45px;
+  padding-right: 40px;
+  visibility: hidden;
+}
+
+#titre{
+  font-family: cyber;
+  font-size: 35px;
+  margin: auto;
+}
+
+p{
+  color: gold;
+  font-style: italic;
+}
+
+ span{
+   color: #4DB6FD;
+ }
